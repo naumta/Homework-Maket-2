@@ -1,0 +1,233 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/montserrat/v18/JTUSjIg1_i6t8kCHKm459Wlhzg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/montserrat/v18/JTURjIg1_i6t8kCHKm45_dJE3gnD-w.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fBBc9.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fBBc9.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmWUlfBBc9.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/kaushanscript/v9/vm8vdRfvXFLG3OLnsO15WYS5DG74wNc.ttf) format('truetype');
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  max-width: 1920px;
+  font-family: "Roboto", sans-serif;
+}
+body .container {
+  max-width: 1200px;
+  padding: 0;
+}
+body header {
+  font-family: "Montserrat", sans-serif;
+  background-image: url(../img/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 1px solid #262f32;
+}
+body header h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 25px;
+  margin-bottom: 0;
+  color: #ffffff;
+}
+body header nav {
+  margin-top: 35px;
+  margin-bottom: 175px;
+}
+body header ul li {
+  display: block;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  margin-left: 55px;
+}
+body header ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.3s;
+}
+body header ul li a:hover {
+  color: #fce38a;
+  border-bottom: 2px solid #fce38a;
+  padding-bottom: 0.3em;
+}
+body header .invite {
+  text-align: center;
+}
+body header .invite h2 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 72px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 35px;
+}
+body header .invite h3 {
+  font-weight: 700;
+  font-size: 150px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 70px;
+}
+body header .invite h3 span {
+  margin-left: 24px;
+}
+body header .invite button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 50px;
+  margin-bottom: 157px;
+  width: 164px;
+  height: 44px;
+  border: 3px solid #ffffff;
+  background-color: transparent;
+  transition: 0.3s;
+}
+body header .invite button:hover {
+  color: #fce38a;
+  border-color: #fce38a;
+}
+body header .info {
+  display: flex;
+  justify-content: space-between;
+}
+body header .info p {
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+body header .info p span {
+  font-weight: 700;
+}
+body header h4 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 24px;
+}
+body main {
+  width: 100%;
+  text-align: center;
+}
+body main h4 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 24px;
+  margin-top: 90px;
+}
+body main h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+body main p {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: #acacac;
+  margin-top: 45px;
+}
+body main .main_photo {
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 110px;
+}
+body main .main_photo .us {
+  position: relative;
+}
+body main .main_photo .us .us_img1 {
+  box-shadow: 11px 11px 3px 0px #95e1d3;
+  margin-right: 25px;
+}
+body main .main_photo .us .us_img3 {
+  margin-left: 25px;
+}
+body main .main_photo .users {
+  position: absolute;
+  top: 95px;
+  left: 130px;
+}
+body main .main_photo .users img {
+  box-shadow: none;
+}
+body main .main_photo .users p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 13px 0 0 0;
+}
+body section {
+  background-color: #95e1d3;
+}
+body section .count {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+body section .count span {
+  font-size: 72px;
+  font-weight: 700;
+  color: #ffffff;
+}
+body section .count p {
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+}
+body section .count .project {
+  border-right: 1px solid #ffffff;
+  padding: 85px 34px;
+}
+body section .count .client {
+  border-right: 1px solid #ffffff;
+  padding: 85px 65px;
+}
+body section .count .award {
+  border-right: 1px solid #ffffff;
+  padding: 85px 60px;
+}
+body section .count .cup {
+  border-right: 1px solid #ffffff;
+  padding: 85px 65px;
+}
+body section .count .member {
+  padding: 85px 80px;
+}

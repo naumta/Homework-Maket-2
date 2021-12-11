@@ -1,0 +1,217 @@
+@import "https://fonts.googleapis.com/css?family=Montserrat:400,700";
+@import "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700";
+@import "https://fonts.googleapis.com/css?family=Kaushan+Script";
+
+* {
+box-sizing: border-box;
+}
+body {
+margin: 0;
+max-width: 1920px;
+font-family: "Roboto", sans-serif;
+
+  .container {
+    max-width: 1200px;
+    padding: 0;
+  }
+
+  header {
+    font-family: "Montserrat", sans-serif;
+    background-image: url(../img/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid #262f32;
+
+    h1 {
+      font-size: 30px;
+      font-weight: 700;
+      margin-top: 25px;
+      margin-bottom: 0;
+      color: #ffffff;
+    }
+    nav {
+      margin-top: 35px;
+      margin-bottom: 175px;
+    }
+
+    ul li {
+      display: block;
+      font-size: 14px;
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+      margin-left: 55px;
+
+      a {
+        text-decoration: none;
+        color: #ffffff;
+        transition: 0.3s;
+      }
+      a:hover {
+        color: #fce38a;
+        border-bottom: 2px solid #fce38a;
+        padding-bottom: 0.3em;
+      }
+    }
+
+    .invite {
+      text-align: center;
+
+      h2 {
+        font-family: "Kaushan Script", cursive;
+        font-size: 72px;
+        font-weight: 400;
+        color: #ffffff;
+        margin-bottom: 35px;
+      }
+
+      h3 {
+        font-weight: 700;
+        font-size: 150px;
+        color: #ffffff;
+        text-transform: uppercase;
+        margin-bottom: 70px;
+
+        span {
+          margin-left: 24px;
+        }
+      }
+      button {
+        font-family: "Montserrat", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+        margin-top: 50px;
+        margin-bottom: 157px;
+        width: 164px;
+        height: 44px;
+        border: 3px solid #ffffff;
+        background-color: transparent;
+        transition: 0.3s;
+      }
+      button:hover {
+        color: #fce38a;
+        border-color: #fce38a;
+      }
+    }
+    .info {
+      display: flex;
+      justify-content: space-between;
+
+      p {
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ffffff;
+
+        span {
+          font-weight: 700;
+        }
+      }
+    }
+
+    h4 {
+      font-family: "Kaushan Script", cursive;
+      font-size: 24px;
+    }
+  }
+
+  main {
+    width: 100%;
+    text-align: center;
+
+    h4 {
+      font-family: "Kaushan Script", cursive;
+      font-size: 24px;
+      margin-top: 90px;
+    }
+    h5 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 30px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-top: 25px;
+      margin-bottom: 40px;
+    }
+    p {
+      font-family: "Roboto", sans-serif;
+      font-size: 15px;
+      color: #acacac;
+      margin-top: 45px;
+    }
+    .main_photo {
+      display: flex;
+      margin-top: 100px;
+      margin-bottom: 110px;
+
+      .us {
+        position: relative;
+
+        .us_img1 {
+          box-shadow: 11px 11px 3px 0px #95e1d3;
+          margin-right: 25px;
+        }
+        .us_img3 {
+          margin-left: 25px;
+        }
+      }
+      .users {
+        position: absolute;
+        top: 95px;
+        left: 130px;
+
+        img {
+          box-shadow: none;
+        }
+
+        p {
+          font-size: 18px;
+          font-weight: 700;
+          color: #ffffff;
+          margin: 13px 0 0 0;
+        }
+      }
+    }
+  }
+
+  section {
+    background-color: #95e1d3;
+
+    .count {
+      font-family: "Montserrat", sans-serif;
+      display: flex;
+      justify-content: space-between;
+
+      span {
+        font-size: 72px;
+        font-weight: 700;
+        color: #ffffff;
+      }
+
+      p {
+        font-size: 14px;
+        text-align: center;
+        color: #ffffff;
+      }
+      .project {
+        border-right: 1px solid #ffffff;
+        padding: 85px 34px;
+      }
+      .client {
+        border-right: 1px solid #ffffff;
+        padding: 85px 65px;
+      }
+      .award {
+        border-right: 1px solid #ffffff;
+        padding: 85px 60px;
+      }
+      .cup {
+        border-right: 1px solid #ffffff;
+        padding: 85px 65px;
+      }
+      .member {
+        padding: 85px 80px;
+      }
+    }
+  }
+}
